@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="396dp"
+        android:layout_height="583dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/findBySurName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/searchForSecName"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/SearchBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="@string/search" />
+
+        <TextView
+            android:id="@+id/fName"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="@string/name" />
+
+        <TextView
+            android:id="@+id/surName"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="@string/secName" />
+
+        <TextView
+            android:id="@+id/lasName"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="@string/Last" />
+
+        <TextView
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="@string/age1" />
+
+        <TextView
+            android:id="@+id/telNum"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="@string/TELNUM" />
+
+        <TextView
+            android:id="@+id/mail"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="@string/e_mail" />
+
+        <TextView
+            android:id="@+id/adress"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="@string/adresss" />
+
+        <TextView
+            android:id="@+id/note"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="@string/notes" />
+
+        <Button
+            android:id="@+id/noteBtn"
+            android:layout_width="179dp"
+            android:layout_height="35dp"
+            android:text="@string/changeNote" />
+
+        <Button
+            android:id="@+id/deletBtn"
+            android:layout_width="178dp"
+            android:layout_height="35dp"
+            android:text="@string/delbtn" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

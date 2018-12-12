@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">adressBook</string>
+    <string name="action_settings">Settings</string>
+    <string name="noteBtn">noteBtn</string>
+    <string name="note">notr</string>
+    <string name="adress">adress</string>
+    <string name="e_mail">e_mail</string>
+    <string name="TalNum">TalNum</string>
+    <string name="age">age</string>
+    <string name="lastName">lastName</string>
+    <string name="surName">surName</string>
+    <string name="FName">FName</string>
+    <string name="findBUSname">findBUSname</string>
+    <string name="name">Имя:</string>
+    <string name="secName">Фамилия:</string>
+    <string name="Last">Отчество:</string>
+    <string name="age1">Возраст:</string>
+    <string name="TELNUM">Телефонный номер:</string>
+    <string name="adresss">Адресс:</string>
+    <string name="notes">Заметка</string>
+    <string name="enterNewNote">Введите новую заметку</string>
+    <string name="enter">Ввод</string>
+    <string name="enterName">Введите имя</string>
+    <string name="enterLN">Введите фамилию</string>
+    <string name="add">Добавить</string>
+    <string name="enterLLN">Введите отчество</string>
+    <string name="enterAge">Введите возраст</string>
+    <string name="enterTElNUm">Введите номер телефона</string>
+    <string name="entermail">Введите адрес электронной почты</string>
+    <string name="enteradress">Введите домашний адрес</string>
+    <string name="enterNote">Введите заметку</string>
+    <string name="changeNote">Изменить заметку</string>
+    <string name="searchForSecName">Поиск по фамилии</string>
+    <string name="search">Поиск</string>
+    <string name="щдвТщеу">Прошлая заметка:</string>
+    <string name="delbtn">Удалить контакт</string>
+</resources>
